@@ -2,9 +2,8 @@
 
 # Project Name
 Math Magicians
-> Description the project.
-
-
+## Description
+This project is built to run mathematical operations just like a regular calculator. 
 ## Built With
 
 - React
