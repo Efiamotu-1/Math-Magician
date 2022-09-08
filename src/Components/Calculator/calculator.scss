@@ -1,8 +1,5 @@
 /* stylelint-disable at-rule-no-unknown */
 $color-primary: rgb(238, 164, 26);
-$color-primary-light: #7ed56f;
-$color-primary-dark: #28b485;
-
 $color-grey-dark: #777;
 $color-white: #fff;
 
@@ -53,13 +50,14 @@ button {
     background-color: lighten($color-grey-dark, 40%);
   }
 
-  &:hover {
-    transform: scaleX(1);
+  &:active {
+    transform: scaleX(1.1);
+    border: $color-grey-dark;
   }
 }
 
 .calculator-container {
-  max-width: 50%;
+  max-width: 40%;
   margin: 1.6rem auto;
 
   .answer-div {
