@@ -1,0 +1,29 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 5rem;
+
+    .title {
+        font-size: 4rem;
+    }
+}
+
+.nav-link {
+    text-decoration: none;
+    color: $color-white;
+    font-size: 2rem;
+    padding: .5rem 0 .5rem 2rem;
+    text-shadow: 0px 0px .5px $color-black;
+
+    &:hover { 
+        color: darken($color-grey-dark, 50%)
+    }
+    
+    &:not(:last-child) {
+        border-right: 1px solid $color-black;
+        padding-right: 2rem;
+    }
+
+}

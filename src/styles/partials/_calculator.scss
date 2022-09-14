@@ -1,7 +1,4 @@
 /* stylelint-disable at-rule-no-unknown */
-$color-primary: rgb(238, 164, 26);
-$color-grey-dark: #777;
-$color-white: #fff;
 
 *,
 *::after,
@@ -19,9 +16,15 @@ body {
   font-family: "lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: $color-grey-dark;
-  padding: 3rem;
+  color: $color-white;
+  padding: 1rem 4rem;
   box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.35) url(../../login-Bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 100vh;
 }
 
 @mixin gridDisplay() {
@@ -56,9 +59,21 @@ button {
   }
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4rem 1rem;
+
+  .title {
+    width: 30rem;
+    font-size: 3rem;
+
+  }
+
 .calculator-container {
-  max-width: 40%;
-  margin: 1.6rem auto;
+  width: 45rem;
+  margin: 1.6rem right;
 
   .answer-div {
     background-color: $color-grey-dark;
@@ -78,4 +93,5 @@ button {
   .fifth-div {
     @include gridDisplay;
   }
+}
 }
