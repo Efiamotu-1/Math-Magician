@@ -24,7 +24,6 @@ body {
   background-position: center;
   background-size: cover;
   background-blend-mode: darken;
-  height: 100vh;
 }
 
 @mixin gridDisplay() {
@@ -68,30 +67,35 @@ button {
   .title {
     width: 30rem;
     font-size: 3rem;
-
   }
 
-.calculator-container {
-  width: 45rem;
-  margin: 1.6rem right;
+  .calculator-container {
+    width: 45rem;
+    margin: 1.6rem 0;
 
-  .answer-div {
-    background-color: $color-grey-dark;
-    text-align: right;
-    color: $color-white;
-    padding: 1.6rem;
+    .answer-div {
+      background-color: $color-grey-dark;
+      text-align: right;
+      color: $color-white;
+      padding: 1.6rem;
 
-    span {
-      font-size: 2.1rem;
+      span {
+        font-size: 2.1rem;
+      }
+    }
+
+    .first-div,
+    .second-div,
+    .third-div,
+    .fourth-div,
+    .fifth-div {
+      @include gridDisplay;
     }
   }
-
-  .first-div,
-  .second-div,
-  .third-div,
-  .fourth-div,
-  .fifth-div {
-    @include gridDisplay;
-  }
 }
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 4rem 0;
+  }
 }
