@@ -19,15 +19,13 @@ This project is built to run mathematical operations just like a regular calcula
 run npm start in the terminal 
 
 
-## Authors
-
-## Authors
+## Author
 
 👤 **Habeeb Musa Efiamotu**
 
-- GitHub: [@githubhandle](https://github.com/Efiamotu-1)
-- Twitter: [@twitterhandle](https://twitter.com/EFYAMOTU)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/musa-habeeb/)
+- GitHub: [@Efiamotu](https://github.com/Efiamotu-1)
+- Twitter: [@EFYAMOTU](https://twitter.com/EFYAMOTU)
+- LinkedIn: [Musa Habeeb Efiamotu](https://www.linkedin.com/in/musa-habeeb/)
 
 
 ## 🤝 Contributing
