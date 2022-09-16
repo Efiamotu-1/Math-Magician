@@ -12,7 +12,7 @@ This project is built to run mathematical operations just like a regular calcula
 
 ## Live Demo (if available)
 
-[> coming soon]()
+[see live](https://mathematics-magicians-app.netlify.app/)
 
 
 ## Getting Started
