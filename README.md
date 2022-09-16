@@ -23,9 +23,9 @@ run npm start in the terminal
 
 👤 **Habeeb Musa Efiamotu**
 
-- GitHub: [@Efiamotu](https://github.com/Efiamotu-1)
+- GitHub: [@Efiamotu-1](https://github.com/Efiamotu-1)
 - Twitter: [@EFYAMOTU](https://twitter.com/EFYAMOTU)
-- LinkedIn: [Musa Habeeb Efiamotu](https://www.linkedin.com/in/musa-habeeb/)
+- LinkedIn:[Musa Habeeb Efiamotu](https://www.linkedin.com/in/musa-habeeb/)
 
 
 ## 🤝 Contributing
